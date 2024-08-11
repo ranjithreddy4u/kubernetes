@@ -1,0 +1,13 @@
+open the terminal
+
+docker build -t hello-nginx .
+
+docker tag hello-nginx granjithreddy/custom-images:nginx
+Create the access Token from docker hub
+
+docker login:
+docker login -u granjithreddy
+password
+
+docker push granjithreddy/custom-images:nginx
+
